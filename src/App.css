@@ -1,4 +1,6 @@
 .App {
   text-align: center;
 }
-
+.nav-container{
+  background: linear-gradient(to right, #8e2de2, #4a00e0);
+}

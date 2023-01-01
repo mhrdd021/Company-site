@@ -1,0 +1,37 @@
+.swiper-container {
+    width: 750px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .swiper-slide{
+    width: 300px;
+  }
+  .card{
+    width: 20%;
+    height: auto;
+    border-radius: 15px;
+    margin: 1rem auto;
+    transition: 300ms;
+  }
+  .card:hover{
+    transform: scale(1.04);
+  }
+  .card img{
+    width: 40%;
+    margin: 1rem auto;
+  }
+  .card h2{
+    font-weight: 500;
+  }
+  .html-card{
+    background: linear-gradient(45deg, #f7971e, #ffd200);
+  }
+  .adobe-card{
+    background: linear-gradient(219deg, #e52d27, #b31217);
+  }
+  .vue-card{
+    background: linear-gradient(45deg, #56ab2f, #a8e063);
+  }
+  .react-card{
+    background: linear-gradient(219deg, #8e2de2, #4a00e0);
+  }
