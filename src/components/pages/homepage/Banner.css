@@ -60,3 +60,48 @@
 .banner p{
     color: rgb(235, 236, 237);
 }
+@media screen and (max-width:1000px) {
+  .banner{
+    flex-direction: column-reverse;
+    display: flex;
+  }
+  .banner h1{
+    font-size: 1.8rem;
+  }
+  .imgcontainer{
+    margin: 0 auto;
+    width: 40%;
+  }
+  .text-container{
+    width: 80%;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 2rem auto;
+  }
+  .text-container h1{
+    margin:10rem auto 1rem;
+    width: 60%;
+    text-align: center;
+  }
+  .text-container p{
+    width: 100%;
+    text-align: center;
+  }
+}
+@media screen and (max-width:500px) {
+  .text-container h1{
+    margin:10rem auto 1rem;
+    width: 100%;
+    text-align: center;
+    font-size: 1.4rem;
+  }
+  .imgcontainer{
+    margin: -6rem auto;
+    width: 70%;
+  }
+  .button-29{
+    width: 30%;
+    font-size: 0.8rem;
+  }
+}

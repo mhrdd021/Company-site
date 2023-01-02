@@ -9,11 +9,16 @@ const Slider = () => {
     <div className="w-11/12 mx-auto pb-8">
       <h1 className="text-white text-2xl text-center mt-4">what technology are we used in our projects?</h1>
 
-      <div className="flex">
+      <div className="flex slider-container">
+        <div className="flex">
         <Slider1 />
         <Slider2 />
+        </div>
+
+        <div className="flex">
         <Slider3 />
         <Slider4 />
+        </div>
       </div>
     </div>
   );

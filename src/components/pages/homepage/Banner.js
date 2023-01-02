@@ -20,7 +20,7 @@ const Banner = () => {
             <button className="button-29 mt-8" role="button">Request Demo</button>
           </div>
         
-        <div className='w-6/12 relative top-1/4'>
+        <div className='w-6/12 relative top-1/4 imgcontainer'>
           <img src={BannerImage} className="w-10/12 mx-auto my-auto"></img>
         </div>
     </div>

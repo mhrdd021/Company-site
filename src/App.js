@@ -4,7 +4,7 @@ import ReactGA from "react-ga";
 //components
 import Home from "../src/components/pages/Home"
 import MenuBar from "../src/components/navigation/header/Header";
-
+import Footer from "./components/navigation/footer/Footer";
 //styles
 import "./App.css";
 function App() {
@@ -23,11 +23,15 @@ function App() {
           <MenuBar />
         </div>
         {/*------------------------------Routes----------------------------- */}
-        <div className="md:container md:mx-auto">
+        <div className="w-full">
           <Routes>
             {/*-------------Home-------------- */}
             <Route path="/" element={<Home />} />
           </Routes>
+        </div>
+        {/*-------------Footer-------------- */}
+        <div className="z-50 w-full">
+          <Footer />
         </div>
       </div>
       

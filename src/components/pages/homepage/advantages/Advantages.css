@@ -1,3 +1,35 @@
 .card1{
-    background: linear-gradient(45deg, #314755, #26a0da);
+    background: #353b48;
+    color: whitesmoke;
+}
+.card1 h1{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+@media screen and (max-width:1000px) {
+    .ADVcontainer{
+        display: block;
+    }
+    .ADVcontainer div{
+        width: 80%;
+        margin: 1rem auto;
+    }
+    .ADVcontainer h1{
+        text-align: center;
+    }
+    .ADVcontainer h3{
+        text-align: center;
+    }
+    .card1{
+        width: 30vw !important;
+    }
+}
+@media screen and (max-width:600px) {
+    .ADVcard-container{
+        display: block;
+        width: 90% !important;
+    }
+    .card1{
+        width: 100% !important;
+    }
 }

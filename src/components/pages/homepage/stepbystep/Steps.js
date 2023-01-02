@@ -3,17 +3,16 @@ import Business from '../../../../images/business.png'
 import { BiSupport } from 'react-icons/bi';
 import { BiCodeAlt } from 'react-icons/bi';
 import { BsFileEarmarkText } from 'react-icons/bs';
+import './Step.css'
 
 const Steps = () => {
   return (
-    <div className='text-white flex'>
+    <div className='text-white flex step-container'>
         <div>
             <img src={Business} className="w-10/12"></img>
         </div>
 
         <div className='ml-8 mt-10'>
-            <h3 className='text-purple-600'>little sumary about how we work</h3>
-            <h1 className='text-3xl'>how we could co-work?</h1>
 
             <div className='flex my-4'>
                 <div className='bg-purple-700 rounded-full p-4 h-fit mt-4'>

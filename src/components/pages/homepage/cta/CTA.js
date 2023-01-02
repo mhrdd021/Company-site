@@ -3,7 +3,7 @@ import "./CTA.css"
 
 const CTA = () => {
   return (
-    <div className='w-12/12 mx-auto my-8 rounded-2xl h-96 cta flex justify-between'>
+    <div className='w-12/12 mx-auto h-96 cta flex justify-between'>
         <div className='w-10/12 mx-auto mt-16'>
           <h1 className='text-white text-center text-4xl w-12/12'>Let it to us.</h1>
           <h2 className='text-white text-center text-3xl mt-4'>We know what you want <br />and we know what is your goal.</h2>
