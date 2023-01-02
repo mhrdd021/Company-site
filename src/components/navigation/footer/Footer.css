@@ -162,6 +162,7 @@ ul {
 @media screen and (max-width:992px) {
     .row2{
         display: block !important;
+        padding: 2rem;
     }
 }
 @media screen and (max-width:6px) {
