@@ -3,6 +3,7 @@ import Banner from './homepage/Banner'
 import Slider from './homepage/slider/Slider'
 import Steps from './homepage/stepbystep/Steps'
 import CTA from './homepage/cta/CTA'
+import Advantages from './homepage/advantages/Advantages'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
           <Slider />
         </div>
         <CTA />
+        <Advantages />
     </div>
   )
 }
