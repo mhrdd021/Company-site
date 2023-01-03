@@ -9,6 +9,9 @@ ul {
 .footer-cta {
   border-bottom: 1px solid #373636;
 }
+.single-cta{
+  display: flex;
+}
 .single-cta i {
   color: #ff5e14;
   font-size: 30px;

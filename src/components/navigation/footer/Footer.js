@@ -1,5 +1,13 @@
 import React from 'react'
 import '../footer/Footer.css'
+import { MdLocationPin } from 'react-icons/md';
+import { FaPhone } from 'react-icons/fa';
+import { SiGmail } from 'react-icons/si';
+import { CiSearch } from 'react-icons/ci';
+import Github from '../../../images/github.png'
+import Twitch from '../../../images/twitch.png'
+import LinkedIn from "../../../images/LinkedIn.png"
+
 const Footer = () => {
   return (
     <div>
@@ -9,7 +17,7 @@ const Footer = () => {
             <div className="row flex justify-evenly row1">
                 <div className="col-xl-4 col-md-4 mb-30">
                 <div className="single-cta">
-                    <i className="fas fa-map-marker-alt"></i>
+                    <MdLocationPin className='text-purple-400 text-3xl mt-4'/>
                     <div className="cta-text">
                     <h4>Find us</h4>
                     <span>1010 Avenue, sw 54321, chandigarh</span>
@@ -18,7 +26,7 @@ const Footer = () => {
                 </div>
                 <div className="col-xl-4 col-md-4 mb-30">
                 <div className="single-cta">
-                    <i className="fas fa-phone"></i>
+                    <FaPhone className='text-purple-400 text-3xl mt-4'/>
                     <div className="cta-text">
                     <h4>Call us</h4>
                     <span>9876543210 0</span>
@@ -27,7 +35,7 @@ const Footer = () => {
                 </div>
                 <div className="col-xl-4 col-md-4 mb-30">
                 <div className="single-cta">
-                    <i className="far fa-envelope-open"></i>
+                    <SiGmail className='text-purple-400 text-3xl mt-4'/>
                     <div className="cta-text">
                     <h4>Mail us</h4>
                     <span>mail@info.com</span>
@@ -49,9 +57,15 @@ const Footer = () => {
                     </div>
                     <div className="footer-social-icon">
                     <span>Follow us</span>
-                    <a href="#"><i className="fab fa-facebook-f facebook-bg"></i></a>
-                    <a href="#"><i className="fab fa-twitter twitter-bg"></i></a>
-                    <a href="#"><i className="fab fa-google-plus-g google-bg"></i></a>
+
+                    <div className='flex'>
+                    <a href="#">
+                        <img src={Twitch} className="w-8 rounded-md"></img>    
+                    </a>
+                    <a href="#">
+                        <img src={LinkedIn} className="w-8 rounded-md"/>    
+                    </a>
+                    </div>
                     </div>
                 </div>
                 </div>
@@ -85,7 +99,7 @@ const Footer = () => {
                     <div className="subscribe-form">
                     <form action="#">
                         <input type="text" placeholder="Email Address" />
-                        <button><i className="fab fa-telegram-plane"></i></button>
+                        <button><CiSearch className='text-purple-400 text-3xl'/></button>
                     </form>
                     </div>
                 </div>

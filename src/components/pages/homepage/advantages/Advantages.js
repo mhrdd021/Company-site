@@ -2,6 +2,9 @@ import React from 'react'
 import './Advantages.css'
 import Rocket from '../../../../images/rocket.png'
 import Seo from '../../../../images/seo.png'
+import Support from '../../../../images/support.png'
+import Setting from '../../../../images/settings.png'
+
 const Advantages = () => {
   return (
     <div className='w-10/12 mx-auto flex ADVcontainer'>
@@ -29,20 +32,21 @@ const Advantages = () => {
                 </div>
 
                 <div className='block text-white text-center p-8 rounded-lg my-4 card1'>
-                    <img src={Seo} className="w-12 mx-auto"></img>
+                    <img src={Setting} className="w-12 mx-auto"></img>
                     <h1>SPEED</h1>
                     <h3>
                         great speed for each site is one of the best factor that 
                         could interact the customer's and users of you're website
                     </h3>
                 </div>
+
 
             </div>
 
             <div className='w-5/12 block mx-2'>
 
                 <div className='block text-white text-center p-8 rounded-lg my-4 card1'>
-                    <img src={Rocket} className="w-12 mx-auto"></img>
+                    <img src={Support} className="w-12 mx-auto"></img>
                     <h1>SPEED</h1>
                     <h3>
                         great speed for each site is one of the best factor that 
@@ -51,7 +55,7 @@ const Advantages = () => {
                 </div>
 
                 <div className='block text-white text-center p-8 rounded-lg my-4 card1'>
-                    <img src={Rocket} className="w-12 mx-auto"></img>
+                    <img src={Seo} className="w-12 mx-auto"></img>
                     <h1>SPEED</h1>
                     <h3>
                         great speed for each site is one of the best factor that 
