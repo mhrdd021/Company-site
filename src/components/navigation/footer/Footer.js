@@ -3,8 +3,7 @@ import '../footer/Footer.css'
 import { MdLocationPin } from 'react-icons/md';
 import { FaPhone } from 'react-icons/fa';
 import { SiGmail } from 'react-icons/si';
-import { CiSearch } from 'react-icons/ci';
-import Github from '../../../images/github.png'
+import { MdOutlineAlternateEmail } from 'react-icons/md';
 import Twitch from '../../../images/twitch.png'
 import LinkedIn from "../../../images/LinkedIn.png"
 
@@ -99,7 +98,7 @@ const Footer = () => {
                     <div className="subscribe-form">
                     <form action="#">
                         <input type="text" placeholder="Email Address" />
-                        <button><CiSearch className='text-purple-400 text-3xl'/></button>
+                        <button><MdOutlineAlternateEmail className='text-purple-400 text-3xl'/></button>
                     </form>
                     </div>
                 </div>

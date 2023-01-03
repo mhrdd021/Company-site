@@ -1,6 +1,6 @@
 import React from "react";
 import './Header.css'
-import logo from "../../../images/logo.png"
+import logo from "../../../images/logo.webp"
 
 const Header = () => {
 
@@ -8,8 +8,9 @@ const Header = () => {
     <nav className="header">
       <div className="nav-wrapper flex flex-row-reverse items-center justify-between">
 
-        <div>
-            <img src={logo} className="w-8"></img>
+        <div className="flex">
+          <h1 className="pt-1 mr-2">MHRDD</h1>
+          <img src={logo} className="w-8"></img>
         </div>
 
         <ul className="menu rtl-size flex flex-col md:flex-row">
