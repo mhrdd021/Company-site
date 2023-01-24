@@ -9,7 +9,7 @@ const Banner = () => {
         
           <div className='w-6/12 mx-auto relative top-1/4 text-container'>
             <h1 className='text-white text-left text-4xl bold'>
-              DEVELOPMENTS <br/>
+              DEVELOPMENT <br/>
               AND SOFTWARE
             </h1>
             <p className='w-4/6 mt-4'>
